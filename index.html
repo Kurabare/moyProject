@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="icon" type="image/ico" sizes="16x16" href="img/favicon.ico">
+</head>
+<meta property="og:title" content="Проект">
+<meta property="og:site_name" content="Касперский">
+<meta property="og:url" content="github.com">
+<meta property="og:description" content="kruto">
+<meta property="og:image" content="github.com">
+<body>
+    <header>
+        <h1>Евгений Валентинович Касперский</h1>
+        <img src="img/plane-solid.svg" alt="логотип" width="60px" height="120px">
+        <nav>
+            <ul>
+                <li class = "menu-item"><a href="#about">Начало биографии</a></li>
+                <li class = "menu-item"><a href="#articles">Статьи</a></li>
+                <li class="menu-item"><a href="#menus">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section сlass="about" id="about">
+            <h3>Биография</h3>
+            <a href="img/Eugene_Kaspersky_Headshot.jpg"><img class="avatar" src="img/Eugene_Kaspersky_Headshot.jpg" alt="img" style="float: left; margin: 0 10px 10px 0;"></a>
+            <time datetime="2024-30-10T19:35 ">
+                    19:35 30.10.2024
+            <h2><p>Родился (4 октября 1965, Новороссийск, Краснодарский край) — российский программист, один из ведущих мировых специалистов в сфере информационной безопасности. Один из основателей, основной владелец и нынешний глава АО «Лаборатория Касперского» — международной компании, занимающейся разработкой решений для обеспечения IT-безопасности, имеющей более 30 региональных офисов и ведущей продажи в 200 странах. Лауреат Государственной премии в области науки и технологий за 2008 год.</p></h2>
+            <h2>Евгений Валентинович говорил:<cite><q>«Мне кажется, интернет-пространство необходимо разделить на три зоны. „Красная“ зона — для тех процессов, где безопасность имеет решающее значение; здесь использование интернет-паспорта обязательно. В „желтой“ зоне требования к авторизации ниже — она необходима, например, для проверки возраста покупателя в онлайн-магазинах, торгующих алкоголем или предлагающих товары „для взрослых“. И наконец, „зеленая“ зона: блоги, социальные сети, новостные сайты, чаты — все, что имеет отношение к свободе слова. Здесь никакой авторизации не требуется».</h2></q></cite>
+
+        </section>
+        <section class="articles" id="articles">
+            <h2>Статьи</h2>
+            <ol>
+                <li><a href="article1.html" target="_blank">Первые шаги в мире IT</a></li>
+                <li><a href="article2.html" target="_blank">Семья и увлечения</a></li>
+                <li class="before"><a href="article3.html">Список терминов</a></li>
+            </ol>
+            <section class="menus" id="menus">
+                <h2><ins>Обратная связь</ins></h2>
+                <form action="" id="contact-form">
+                    <div class="form_item">
+                        <label for="topic">Тема</label><br>
+                        <select name="topic" id="topic">
+                            <option value="1">Заказать услугу</option>
+                            <option value="2">Оставить отзыв</option>
+                            <option value="3">Предложить сотрудничество</option>
+                            <option value="4">Другое</option>
+                        </select>
+                    </div>
+                    <div class="form_item">
+                        <label for="name">Имя</label><br>
+                        <input type="text" name="username" placeholder="Например, Александр"  required>
+                    </div>
+                    <div class="form_item">
+                        <label for="tel">Номер телефона</label><br>
+                        <input type="tel" name="tel" placeholder="Например, +792215684564"  required>
+                    </div>
+                    <div class="form_item">
+                        <label for="email">Почта</label><br>
+                        <input type="email" name="email" placeholder="Например, sobachka@gmail.com"  required>
+                    </div>
+                    <div>
+                        <label for="textarea">Текст сообщения</label><br>
+                        <textarea type="text" placeholder="Введите комментарий"  required></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="conf" required>
+                        <label for="conf">Соглашаюсь с политикой конфиденциальности</label><br>
+
+                    </div>
+                    <div class="form_item">
+                        <input type="submit">
+                    </div>
+            </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Лестев Александр,2024 г.</p>
+        <p><a href="https://vk.com/"><del>Вы также можете найти меня здесь</del></a></p>
+        <p><a href="tel:+79355525231">+79355525231</a></p>
+        <p><a href="mailto:sobachka@gmail.com">sobachka@gmail.com</a></p>
+        <p><a href="https://www.wikipedia.org">Источники информации <img class="footer-icons" img src="img/bars-solid.svg" alt="логотип" width="10px" height="10px"></a></p>
+    </footer>
+</body>
+</html>
